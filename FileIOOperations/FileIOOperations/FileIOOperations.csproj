@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6F0314A9-8B48-4EAD-B43C-6CDA13AE2333}</ProjectGuid>
+    <ProjectGuid>{76B983CB-1D4B-4E98-A6FD-5F370A8E5692}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>FileIOOperations</RootNamespace>
     <AssemblyName>FileIOOperations</AssemblyName>
@@ -43,11 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryOperation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="BinaryData.txt" />
+    <Content Include="Example.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
